@@ -7,6 +7,14 @@
    "FiletoLinkBot"
   ],
  "repository": "https://github.com/TGExplore/TG-Files-to-Link",
+ "buildpacks": [
+  {
+     "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest"
+  },
+  {
+     "url": "heroku/python"
+  }     
+ ],    
  "env": {
    "TG_API_ID": {
       "description": "Your Telegram API ID. Get this value from my.telegram.org!",
